@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Welcome to my Actvist Website: Animal Conservation</h1>
+    <img id= "Tiger"src="Assets/tiger-2535888_1920.jpg" alt="A tiger in the water.">
+    <!--quick summary of website-->
+    <p class = "Summary"> I created this website to share a cause that I am really passionate about and that is animal conservation. In this website, you can learn why this topic is important and how you can help. <p>
+    <title>Nikki Rao's Activist Website</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+    <!--navigation tool bar-->
+    <nav>
+      <ul>
+        <li><a href="aboutThisWeb.html">About This Website</a></li>
+        <li><a href="howYouHelp.html">How You Can Help</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <main>
+      <!--fact generator-->
+      <h2>Click the Button Below to Learn Something New</h2>
+      <button id="myButton">Tell me</button>
+      <p id= "fact"></p>
+    </main>
+  </body>
+</html>
